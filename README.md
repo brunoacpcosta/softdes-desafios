@@ -52,4 +52,4 @@ http://192.168.15.9:80/
 
 ## Documentation
 
-Para mais informações e documentações acesse o nosso [Docs](docs)
+Para mais informações e documentações de Aluno, Professor e/ou Desenvoledor acesse o nosso [Docs](docs)

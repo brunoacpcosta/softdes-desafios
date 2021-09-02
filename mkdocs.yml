@@ -1,0 +1,17 @@
+site_name: Desafios de Programação
+site_url: https://www.mkdocs.org/
+
+repo_url: https://github.com/brunoacpcosta/softdes-desafios
+edit_uri: ""
+
+nav:
+  - Home: README.md
+  - Aluno: guia-aluno.md
+  - Professor: guia-professor.md
+  - Desenvolvedor: guia-desenvolvedor.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - python
