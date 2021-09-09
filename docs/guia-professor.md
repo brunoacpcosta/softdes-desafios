@@ -4,7 +4,7 @@ Instruções para professores modificarem a base de dados.
 
 ## Adicionando Usuários
 
-Modifique o arquivo csv [Users](src/users.csv) com o nome e tipo do(s) novo(s) usuário(s) e em seguida rode o script [AddUser](src/adduser.py) para adicionar as alterações ao banco de dados.
+Modifique o arquivo csv [Users](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/users.csv) com o nome e tipo do(s) novo(s) usuário(s) e em seguida rode o script [AddUser](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/adduser.py) para adicionar as alterações ao banco de dados.
 
 ## Adicionando Desafios
 

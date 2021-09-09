@@ -26,12 +26,11 @@ Installe o SQLite3 pelo [link](https://www.sqlite.org/index.html)
 ## Executing program
 
 ### Criando Banco
-
-Utilize os scripts [Quiz](src/quiz.sql) e o [User](src/user.sql) para criar seu banco de dados
+Utilize os scripts [Quiz](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/quiz.sql) e o [User](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/user.sql) para criar seu banco de dados
 
 ### Adicionando usuario
 
-Antes de executar o servidor é preciso que crie um usuário no seu banco de dados SQLite3. Para isso utilize o programa [AddUser](src/adduser.py)
+Antes de executar o servidor é preciso que crie um usuário no seu banco de dados SQLite3. Para isso utilize o programa [AddUser](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/adduser.py)
 
 ### Executando servidor
 
