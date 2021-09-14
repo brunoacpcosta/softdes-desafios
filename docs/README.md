@@ -5,13 +5,13 @@ Servidor em Flask para inserir e testar os desafios presentes na materia de Dese
 
 
 
-## Dependencies
+## Depêndencias
 
 Python 3.9.x + Bibliotecas
 
 SQLite3
 
-## Installing
+## Instalação
 
 Instale as bibliotecas presentes no arquivo requirements.txt
 
@@ -23,12 +23,12 @@ pip install -r requirements.txt
 
 Installe o SQLite3 pelo [link](https://www.sqlite.org/index.html)
 
-## Executing program
+## Executando o programa
 
 ### Criando Banco
 Utilize os scripts [Quiz](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/quiz.sql) e o [User](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/user.sql) para criar seu banco de dados
 
-### Adicionando usuario
+### Adicionando usuário
 
 Antes de executar o servidor é preciso que crie um usuário no seu banco de dados SQLite3. Para isso utilize o programa [AddUser](https://github.com/brunoacpcosta/softdes-desafios/blob/main/src/adduser.py)
 
@@ -37,7 +37,7 @@ Antes de executar o servidor é preciso que crie um usuário no seu banco de dad
 Assim que tiver inserido o usuário rode o servidor com o comando
 
 ```
-python softdes.py
+python3 softdes.py
 ```
 
 ![alt text](img/terminal.png?raw=true "Terminal")
@@ -48,6 +48,6 @@ http://192.168.15.9:80/
 
 ![alt text](img/portal.png?raw=true "Portal")
 
-## Documentation
+## Documentação
 
 Para mais informações e documentações de Aluno, Professor e/ou Desenvoledor acesse o nosso [Docs](docs)
