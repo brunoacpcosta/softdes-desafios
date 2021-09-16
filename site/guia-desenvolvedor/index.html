@@ -61,6 +61,14 @@
                 </ul>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Desenvolvedor</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#configurando-o-ambiente">Configurando o ambiente</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#instalacao-das-bibliotecas-do-python">Instalação das Bibliotecas do Python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#estrutura-de-codigo-alto-nivel">Estrutura de código Alto nível</a>
+    </li>
+    </ul>
                     </li>
                 </ul>
       </div>
@@ -96,7 +104,45 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="guia-para-desenvolvedores">Guia para desenvolvedores</h1>
+<h2 id="configurando-o-ambiente">Configurando o ambiente</h2>
+<p>Para fazer alterações neste projeto, será necessário a instalação dos  seguintes programas: </p>
+<ul>
+<li>Python 3.9</li>
+<li>flask</li>
+<li>flask_httpauth  </li>
+<li>SQL<ul>
+<li>SQLite</li>
+</ul>
+</li>
+</ul>
+<h2 id="instalacao-das-bibliotecas-do-python">Instalação das Bibliotecas do Python</h2>
+<p>É possível instalar as bibliotecas necessárias presentes no arquivo requirements.txt
+com:</p>
+<pre><code>pip install -r requirements.txt
+</code></pre>
+<p>Caso você não possua pip, instala-se ele a partir desta página:
+<a href="https://pip.pypa.io/en/stable/installation/">pip</a></p>
+<p>Para o SQLite3, utiliza-se esta fonte: <a href="https://www.sqlite.org/index.html">sqlite3</a></p>
+<p>Os arquivos estão localizados na pasta <strong>/src</strong>, possuindo a seguinte estrutura:</p>
+<p><img alt="" src="../img/arquivos.png" /></p>
+<h2 id="estrutura-de-codigo-alto-nivel">Estrutura de código Alto nível</h2>
+<p>Cada arquivo exerce uma função específica importante para o funcionamento do projeto. Vamos descrever cada um deles </p>
+<pre><code>softdes.py
+</code></pre>
+<p>Possui toda a lógica por trás do servidor flask que é utilizado. Nele possuem funções comuns de rotas Web tanto quanto funções que conversam com o banco de dados SQLite. </p>
+<pre><code>desafio.py
+</code></pre>
+<p>Serve para simular a entrega de um aluno, ou seja, é um função simples para testar se o que foi enviado está sendo executado corretamente.</p>
+<pre><code>users.csv
+</code></pre>
+<p>Contém informação do usuário a ser adicionado </p>
+<pre><code>adduser.py
+</code></pre>
+<p>Cria a conexão com o banco de dados e adiciona um usuário a partir do arquivo users.csv</p>
+<pre><code>quiz.sql
+</code></pre>
+<p>Arquivo SQL que cria as tabelas necessárias para o funcionamento da ferramenta, além de inserir um valor test ao final do arquivo</p>
               
             </div>
           </div>
