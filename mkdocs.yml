@@ -5,7 +5,7 @@ repo_url: https://github.com/brunoacpcosta/softdes-desafios
 edit_uri: ""
 
 nav:
-  - Home: README.md
+  - Home: index.md
   - Aluno: guia-aluno.md
   - Professor: guia-professor.md
   - Desenvolvedor: guia-desenvolvedor.md
