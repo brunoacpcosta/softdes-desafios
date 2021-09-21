@@ -1,5 +1,2 @@
-sqlite3
-hashlib
-numbers
 flask
 flask_httpauth

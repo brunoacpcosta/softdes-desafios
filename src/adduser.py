@@ -8,7 +8,7 @@ def add_user(user, pwd, type_csv):
     """Connects to database, then add all users in users.csv"""
     conn = sqlite3.connect('quiz.db')
     cursor = conn.cursor()
-    cursor.execute('Insert into USERS(user,pass,type) values("{0}","{1}","{2}");'
+    cursor.execute('Insert into USER(user,pass,type) values("{0}","{1}","{2}");'
                    .format(user, pwd, type_csv))
     conn.commit()
     conn.close()
