@@ -21,8 +21,8 @@ def login_test(user, password):
 
 def challenge_test(user,password):
     if login_test(user, password):
-        wrong_upload = "C:\\Users\\gustavogb\\Documents\\Insper\\DEV_ABERTO\\softdes-desafios\\test\\teste2.py"
-        right_upload = "C:\\Users\\gustavogb\\Documents\\Insper\\DEV_ABERTO\\softdes-desafios\\test\\teste1.py"
+        wrong_upload = "C:\\Users\\gustavogb\\Documents\\Insper\\DEV_ABERTO\\softdes-desafios\\test\\desafio3.py"
+        right_upload = "C:\\Users\\gustavogb\\Documents\\Insper\\DEV_ABERTO\\softdes-desafios\\test\\desafio.py"
         time.sleep(0.4)
         
         s = driver.find_element_by_xpath("//input[@type='file']")
